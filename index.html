@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Registro de Horas</title>
+</head>
+<body>
+<header></header>
+    <div class="container">
+        <h2>Registro de Horas</h2>
+        <form id="registroForm">
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="horas">Horas trabajadas:</label>
+            <input type="number" id="horas" name="horas" min="1" required>
+
+            <button type="button" onclick="registrarHoras()">Registrar</button>
+            <!-- Add this button inside the form -->
+            <button id="eliminarTodo">Eliminar Todo</button>
+
+
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Resumen de Horas Trabajadas</h2>
+        <ul id="resumenList"></ul>
+        
+        <!-- Agrega esto en tu archivo HTML -->
+        <div id="totalHoras"></div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
+

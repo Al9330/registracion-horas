@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.reloj{
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: skyblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+/* Styles for devices with a maximum width of 767 pixels (typically mobile phones) */
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+/* Styles for devices with a minimum width of 768 pixels and a maximum width of 1023 pixels (typically tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 80%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+}
