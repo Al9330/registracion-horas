@@ -32,7 +32,7 @@ function registrarHoras() {
         fechaInput.value = '';
         horasInput.value = '';
     } else {
-        alert('Por favor, ingrese una fecha válida y un número de horas mayor que 0.');
+        alert('registraste las horas trabajadas.');
     }
 }
 
